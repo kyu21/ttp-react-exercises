@@ -1,38 +1,75 @@
-.App {
+.Cards {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #5df5dc;
+  width: 75%;
 }
 
-.App-link {
-  color: #61dafb;
+.Card {
+  padding: 10px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-color: #1976d2;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  display: flex;
+}
+
+.Decrement {
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5df5dc;
+  width: 75%;
+}
+
+.numberContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.Number {
+  font-size: 30px;
+}
+
+button {
+  color: #444444;
+  background: #f3f3f3;
+  border: 1px #dadada solid;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 9pt;
+  outline: none;
+}
+
+.Title {
+  margin: 5%;
 }
