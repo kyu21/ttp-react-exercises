@@ -9,6 +9,10 @@ class Decrement extends Component {
     };
   }
 
+  increment = () => {
+    this.setState({ startNumber : this.state.startNumber + 1});
+  };
+
   decrement = () => {
     this.state.startNumber > 0
       ? this.setState({ startNumber: this.state.startNumber - 1 })
@@ -22,6 +26,7 @@ class Decrement extends Component {
           <p className="Number">{this.state.startNumber}</p>
         </div>
         <div className="buttonContainer">
+          <button onClick={this.increment}>increment</button>
           <button onClick={this.decrement}>decrement</button>
         </div>
       </div>

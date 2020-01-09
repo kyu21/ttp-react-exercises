@@ -5,7 +5,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <div className="Cards">
         <div className="Title">
           <h1>Contact Cards</h1>
@@ -37,7 +37,7 @@ function App() {
       </div>
       <div className="Decrement">
         <div className="Title">
-          <h1>Decrement Number!</h1>
+          <h1>Increment/Decrement Number!</h1>
         </div>
         <div>
           <Decrement startNumber={10} />

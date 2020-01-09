@@ -1,4 +1,4 @@
-.Cards {
+.Cards, .Decrement {
   text-align: center;
   margin: auto;
   margin-top: 20px;
@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: center;
   background-color: #AAAAAA;
-  width: 50vw;
+  width: 65vw;
 }
 
 .Card {
@@ -25,20 +25,6 @@
   display: flex;
 }
 
-.Decrement {
-  text-align: center;
-  margin: auto;
-  margin-top: 20px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-right: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #AAAAAA;
-  width: 50vw;
-}
-
 .numberContainer {
   display: flex;
   align-items: center;
@@ -51,8 +37,7 @@
   align-items: center;
   justify-content: center;
   padding: 10px;
-  margin-left: 50%;
-  margin-right: 50%;
+  margin-left: 20px;
 }
 
 .Number {
@@ -68,8 +53,9 @@ button {
   font-weight: bold;
   font-size: 16pt;
   outline: none;
+  margin: 10px;
 }
 
 .Title {
-  margin: 5%;
+  margin: 50px 50px;
 }
